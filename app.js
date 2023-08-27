@@ -1,0 +1,21 @@
+const API_CONFIG = {
+    Base_Url: 'https://api.aquarius.axeleration.id/api/v1/',   
+    Base_Web_Url: 'https://app.aquarius.axeleration.id/api/web',
+    
+    Admin_Token: 'eyJhbGciOiJSUzUxMiIsImtpZCI6InM5Y0IwZkZXQTZKUVZ1c1dTOVhaR2tmYWxOQThBMUtUUlI5Qjg1dk1NV0UifQ.eyJpc3MiOiJQcml2eUlEIFByb3ZpZGVyIiwic3ViIjoiUHJpdnlJRCBQcm92aWRlciIsImlhdCI6MTY5MTM1MzQ5NywiZXhwIjoxNjkxMzYwNjk3LCJqdGkiOiJjNDE1MmUyZC02MTZiLTQ5ZmItODYxNS1kYWRlMjk0ODg5YzciLCJ1aWQiOiJVQVQwMTMiLCJ1c2VyIjp7InByaXZ5SWQiOiJVQVQwMTMiLCJ1dWlkIjoiN2U2MDFkMDgtNzcyOS00ZjU0LTkyM2QtZmMyZDE1NzRiMmZiIn0sImNsYWltcyI6WyJ3cml0ZSIsInJlYWQiLCJwdWJsaWMiXX0.Es9l_pFvZDMcstldLKliFJAPDDd0dQTe5XWlioCnUnQsMeazzHVuB7TmIK8KUdTWLesON66KmnYJsyWuWVUmMUGgDQ-5cHHlLVWf36iiBR6y0JQqz-JFPCAS-Fjc3I8WmevF1lySUZd4rMBr16Cypq6TCiD9F_84Q-iTJ8G4zPZq1dj3gazkSnKZ7QabBpDyoa2EI_Hi_5NFsAbyRcUsfmEn2vt0uU0WEZXmhZ8Rb-IE2A44sY7ROjwsdfP9CeD9x40iRHFhrR5iXrOeRkjMyitioq9MRiCzzi07BKRJ2W0uEZriE6iCcAftB7Fep0cV0286v-TxcAG8OvTtOZS_nw',
+    User_Token: 'eyJhbGciOiJSUzUxMiIsImtpZCI6InM5Y0IwZkZXQTZKUVZ1c1dTOVhaR2tmYWxOQThBMUtUUlI5Qjg1dk1NV0UifQ.eyJpc3MiOiJQcml2eUlEIFByb3ZpZGVyIiwic3ViIjoiUHJpdnlJRCBQcm92aWRlciIsImlhdCI6MTY5MTMwNDQwNSwiZXhwIjoxNjkxMzExNjA1LCJqdGkiOiI4YTcwODgwYy1iZjA5LTQ2MGUtOGRiYi02MjJlNzJjNDIxMjgiLCJ1aWQiOiJEU1M0NTY3IiwidXNlciI6eyJwcml2eUlkIjoiRFNTNDU2NyIsInV1aWQiOiI3YzdkZWY5ZS1jM2ZlLTRiNzEtYjM2OC1kNDQ2NDZmMDkwY2EifSwiY2xhaW1zIjpbInB1YmxpYyIsInJlYWQiXX0.ZacSVAh9ze4vZpU0Qhfg6pspuJK70QOdpHD1Gb8k4vdxsVObdIZ98j885-NFNShzWYxUFMaK8TtMb1gI21P1uu2Uz1SbzA9phc8hSBotkScB2CdcqfZ69PK_on9ufKrQgFIBRZWEBYdxc5Et60wHMl2XKcE1Rnt2fQ3kzRo4uvNbwQKtS-i7UzkyCTrL6G02H1H6q2d3fIubhdZYNXQD8R60HBvcGRnl6fmyEaEYWp28qbnEVjaw5GwlRXYlQH7ztb4AwIvSV4On3NgPgI-8r_5wEZYBOo0mbntSUezHXVQmbrPtZMat5L1NV1a0NFBXWpIAMcr_VpH48U7kfN6kkA',
+
+    jobVacanciesId1:"9c61f6d0-76fb-4aef-a91c-a3f792d248ca",
+    jobVacanciesId2:"4899a851-b864-485d-8a72-63aabb894516",
+    jobVacanciesId3:"637da989-f68f-4b78-b159-37153b2c5d02",
+    nonExistingJobVacanciesId:"",
+    applicantId:"ffe844cd-465f-4987-a70b-117e9ad8d7da",
+    invalidapplicantId:"tu1c456e-223b-567k-c10b-e28e823cdk3s",
+    nonExistingApplicantId:"",
+    userId:"002d1935-728c-4ea8-a368-33a8ca031970",
+    invaliduserId:"912y7586-869h-098g-a654-11c450336743",
+    invalidVacanciesId:"e793a551-421c-390s-a64q-a3f792d248ca",
+    tokennoAuth:""
+  };
+  
+  module.exports = API_CONFIG;

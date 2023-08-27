@@ -1,0 +1,16 @@
+const API_CONFIG = {
+    Base_Url: 'https://api.aquarius.axeleration.id/web/api/v1/',   
+    Base_Web_Url: 'https://app.aquarius.axeleration.id/api/web',
+    preview: 'applicant/offering/preview',
+    merchant_key: '6qvva5bpwwqaqinzarn7',
+    detailJob: 'detail-jobs/',
+    list_submit: 'submit-applicant/list?page=1&per_page=10',
+    list_job: 'list-jobs?page=1&per_page=25',
+    approve: 'applicant/offering/approve/',
+    reject: 'applicant/offering/reject/',
+    submit: 'submit-applicant',    
+    Admin_Token: 'eyJhbGciOiJSUzUxMiIsImtpZCI6InM5Y0IwZkZXQTZKUVZ1c1dTOVhaR2tmYWxOQThBMUtUUlI5Qjg1dk1NV0UifQ.eyJpc3MiOiJQcml2eUlEIFByb3ZpZGVyIiwic3ViIjoiUHJpdnlJRCBQcm92aWRlciIsImlhdCI6MTY5MTMwOTQ0OSwiZXhwIjoxNjkxMzE2NjQ5LCJqdGkiOiJjMzFlMzcwMy04MzA2LTRjN2MtODQxYS02ODVhZGI0MDcxOGQiLCJ1aWQiOiJVQVQwMTMiLCJ1c2VyIjp7InByaXZ5SWQiOiJVQVQwMTMiLCJ1dWlkIjoiN2U2MDFkMDgtNzcyOS00ZjU0LTkyM2QtZmMyZDE1NzRiMmZiIn0sImNsYWltcyI6WyJ3cml0ZSIsInJlYWQiLCJwdWJsaWMiXX0.YlK0zOnxv1sdRFn6MR8iLrdCYehMBO_-uXHX-K5DucEsa27-fDoCWoQaxCiZsrfxPVv1pYAdtVEVfxIGA4bGPxiNMnlS6Roiesvyb7yshupdYpIGuIDIEWACFMKEx_FUuQxgvwsxWFwOtd-AuqlRx10MLrrV5-aCLxvv3sARju3OS-40WDLxYPA7ZACiR1QhRwr2enQ0R6cL_Pii5ZxvRcKk-NmJ4ZLvWdLNCLnuavEjhO1navEdK2yhivaZ7212vKuqgMXZnImBIFztsdyew_B8zEtp4VNzJoYRxl5fajuHgygr32S6LJVmO1ggnddlIjYpy-6HfRKBNyPgbwuwNA',
+    User_Token: 'eyJhbGciOiJSUzUxMiIsImtpZCI6InM5Y0IwZkZXQTZKUVZ1c1dTOVhaR2tmYWxOQThBMUtUUlI5Qjg1dk1NV0UifQ.eyJpc3MiOiJQcml2eUlEIFByb3ZpZGVyIiwic3ViIjoiUHJpdnlJRCBQcm92aWRlciIsImlhdCI6MTY5MTMyOTc3NCwiZXhwIjoxNjkxMzM2OTc0LCJqdGkiOiI4Nzc1MTA0ZC0yODIwLTRlMjEtOWFlMi02MTVkZjZhMmIxNGMiLCJ1aWQiOiJSVEE0MTk5IiwidXNlciI6eyJwcml2eUlkIjoiUlRBNDE5OSIsInV1aWQiOiJkMGY0ZjAxMi04NDA1LTQwZDYtYmFmMS1mNGJlYTJmNWVjOWMifSwiY2xhaW1zIjpbIndyaXRlIiwicmVhZCIsInB1YmxpYyJdfQ.S67uE83q5Po3P_wyZyIzVDHnX-elDAodI208gfBDerqRnEDxXmINRE1QvNFImjntmVuEO4Pa9yEWFxnFEKhknKgnOrAZlznUtiVCsXlFieqCpProsJ1KbE7Vr__WRYGzWf7NOXEKrT8q3y10V1qoon9uoqF9sshoIeohVjodpKqxgQuoLCS47d765u9V-n7oPebrRQ6A7vwwwHuv_iYYrYHD0gXYp-x8hzzD6Hc2ID65IVwz4Izt6UEAKJSi3TNwAab6ETN0iTJJJ4BewKx51ju0G50HfXg713S4KCr2vtJ7qtU-z-VLr5N_1SEn2rdXakZWqoNcnMWYe2VtL6cFXw'
+  };
+  
+  module.exports = API_CONFIG;
